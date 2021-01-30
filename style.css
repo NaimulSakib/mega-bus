@@ -134,7 +134,7 @@
     background-color: #fff;
     border: 1px solid #ddd;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 7px;
     margin: 50px 0px 0px 80px;
   }
   
@@ -182,5 +182,5 @@
     color: whitesmoke;
     background-color: #52af3a;
     border: 1px solid whitesmoke;
-    border-radius: 5px;
+    border-radius: 7px;
   }
