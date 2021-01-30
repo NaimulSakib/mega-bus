@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  body {
+    font-family: "Roboto", sans-serif;
+    background: url("images/bus.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  nav {
+    height: 50px;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .container {
+    width: 1200px;
+    max-width: 85%;
+    margin: 0 auto;
+  }
+  nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px 6px;
+  }
+  nav ul li a {
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    margin-left: 30px;
+  }
+  nav ul li a:hover,
+  a.active {
+    background-color: #52af3a;
+    border-radius: 5px;
+  }
+  .main-content {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 70px;
+    align-items: center;
+  }
+  .booking-content {
+    color: #fff;
+    width: 100%;
+    float: left;
+    margin-left: 50px;
+  }
+  .booking-content h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", cursive;
+    font-weight: 500;
+  }
+  .booking-form {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    float: right;
+    width: 80%;
+    margin: 50px 0px 0px 80px;
+  }
+  .booking-form h3 {
+    margin: 10px 0px;
+  }
+  .booking-form .input-group {
+    margin: 10px 0;
+  }
+  .booking-form .calculations {
+    margin: 10px 0;
+  }
+  .booking-form .calculations p {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .booking-form input {
+    width: 100%;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #f3f5ff;
+    border-radius: 4px;
+    margin: 10px 0;
+  }
+  .booking-form .inputs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  .f-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .inp-width {
+    min-width: 50px;
+    font-weight: 700;
+  }
+  .plusMinusBtn {
+    color: #041672;
+    font-weight: 800;
+    font-size: 20px;
+    width: 22px;
+    height: 30px;
+    margin-top: 15px;
+  }
+  
+  .btn-style {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    background-color: #52af3a;
+  }
+  .amount {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #bookingConfirmation {
+    width: 80%;
+    float: right;
+    display: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 50px 0px 0px 80px;
+  }
+  
+  #confirmHeading {
+    text-align: center;
+    color: #52af3a;
+  }
+  
+  .spacing {
+    margin-top: 30px;
+  }
+  .infoBox {
+    width: 95%;
+    height: 80%;
+    border: 1px solid whitesmoke;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 15px;
+  }
+  .warning {
+    display: none;
+    font-size: small;
+    color: red;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-row-gap: 30px;
+    text-align: left;
+    font-weight: 600;
+    padding: 10px;
+  }
+  .subGrid {
+    display: grid;
+    grid-row-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+  }
+  .newBookingBtn {
+    margin: 10px;
+    width: 25%;
+    height: 40px;
+    font-size: medium;
+    color: whitesmoke;
+    background-color: #52af3a;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+  }
